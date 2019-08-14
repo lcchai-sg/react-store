@@ -19,7 +19,7 @@ class Cart extends Component {
                   <Title name="你的" title="购物车" />
                   <CartColumns />
                   <CartList value={value} />
-                  <CartTotals value={value} />
+                  <CartTotals value={value} history={this.props.history} />
                 </React.Fragment>
               );
             } else {
