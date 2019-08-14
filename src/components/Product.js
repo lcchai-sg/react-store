@@ -37,7 +37,7 @@ class Product extends Component {
           </ProductConsumer>
           {/* card footer */}
           <div className="card-footer d-flex justify-content-between">
-            <p className="align-self-center mb-0">
+            <p className="align-self-center mb-0 ">
               {title}
             </p>
             <h5 className="text-blue font-italic mb-0">
@@ -70,6 +70,7 @@ const ProductWrapper = styled.div`
     background: transparent;
     border-top: transparent;
     transition: all 1s linear;
+    font-size: 0.8rem;
   }
   &:hover {
     .card {
